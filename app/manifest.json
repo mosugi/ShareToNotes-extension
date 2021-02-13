@@ -1,6 +1,6 @@
 {
   "name": "Share to Notes",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "manifest_version": 2,
   "description": "Share link to apple notes.",
   "background": {
