@@ -1,13 +1,17 @@
 # ShareToNotes-extension
 
-## How to install
+## How to release to Chrome Web Store
+
+1. Archive
 
 ```
-./host/install_host.sh  
+zip -r app.zip app
 ```
 
-## How to uninstall
+2. Go to [Chrome Developer Dashboard](https://chrome.google.com/webstore/developer/dashboard)
+3. Upload Screeenshots
 
-```
-./host/uninstall_host.sh  
-```
+- 128x128 Shop icon
+- 1280x800 Screenshot
+
+4. Publish

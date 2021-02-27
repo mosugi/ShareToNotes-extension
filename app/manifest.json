@@ -1,21 +1,17 @@
 {
-  "name": "Share to Notes",
-  "version": "0.0.3",
+  "name": "Share URL to Apple Notes",
+  "version": "1.0.0",
   "manifest_version": 2,
-  "description": "Share link to apple notes.",
+  "description": "Share URL to Apple Notes",
   "background": {
     "scripts": ["background.js"]
   },
   "icons": {
-    "48": "baseline_ios_share_black_48dp.png"
+    "48": "H_SHODO.png"
   },
   "browser_action": {
-    "default_icon": "baseline_ios_share_black_48dp.png"
+    "default_icon": "H_SHODO.png"
   },
 
-  "permissions": [
-    "nativeMessaging",
-    "activeTab",
-    "tabs"
-  ]
+  "permissions": ["nativeMessaging", "activeTab", "tabs"]
 }

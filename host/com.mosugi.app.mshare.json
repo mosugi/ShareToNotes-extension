@@ -8,6 +8,7 @@
   "path": "/usr/local/bin/mshare",
   "type": "stdio",
   "allowed_origins": [
+    "chrome-extension://fgclobkbehcnkafmcbcmgehbkboikbab/",
     "chrome-extension://fnpmfimgemlnpgokfkblmnoogopipnpo/"
   ]
 }
