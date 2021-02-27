@@ -1,17 +1,23 @@
 # ShareToNotes-extension
 
 Thank you for installing ShareToNotes Extension!
-ShareToNotes works in conjunction with mshare.
+ShareToNotes works with mshare.
 Please follow the steps below to enable the extension.
 
-## How to install
+## Homebrew
 
 ```
-./host/install_host.sh
+# Install mshare
+brew tap mosugi/homebrew-formulae && brew install mshare
+# Install mshare chrome extension native manifest
+git clone https://github.com/mosugi/ShareToNotes-extension.git && ./host/install_host.sh
 ```
 
-## How to uninstall
+## Manually
 
 ```
-./host/uninstall_host.sh
+# Install mshare
+git clone https://github.com/mosugi/mshare.git && cd mshare && make install
+# Install mshare chrome extension native manifest
+git clone https://github.com/mosugi/ShareToNotes-extension.git && ./host/install_host.sh
 ```
