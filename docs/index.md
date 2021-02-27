@@ -10,7 +10,7 @@ Please follow the steps below to enable the extension.
 # Install mshare
 brew tap mosugi/homebrew-formulae && brew install mshare
 # Install mshare chrome extension native manifest
-git clone https://github.com/mosugi/ShareToNotes-extension.git && ./host/install_host.sh
+git clone https://github.com/mosugi/ShareToNotes-extension.git && ./ShareToNotes-extension/host/install_host.sh
 ```
 
 ## Manually
@@ -19,5 +19,5 @@ git clone https://github.com/mosugi/ShareToNotes-extension.git && ./host/install
 # Install mshare
 git clone https://github.com/mosugi/mshare.git && cd mshare && make install
 # Install mshare chrome extension native manifest
-git clone https://github.com/mosugi/ShareToNotes-extension.git && ./host/install_host.sh
+git clone https://github.com/mosugi/ShareToNotes-extension.git && ./ShareToNotes-extension/host/install_host.sh
 ```
